@@ -5,15 +5,15 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Custom Theme"
+      title="EnidLinder Theme"
       directory="profiles/default"
-      description='Extension profile for the "Custom Theme" Plone theme.'
+      description='Extension profile for the "Enidlinder Theme" Plone theme.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
   <genericsetup:importStep
       name="enidlinder.theme.various"
-      title="Custom Theme: miscellaneous import steps"
+      title="EnidLinder Theme: miscellaneous import steps"
       description="Various import steps that are not handled by GS import/export handlers."
       handler="enidlinder.theme.setuphandlers.setupVarious">
     <depends name="skins"/>
