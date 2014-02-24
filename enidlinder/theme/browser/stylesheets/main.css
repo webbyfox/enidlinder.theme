@@ -502,7 +502,7 @@ padding: 1em;
 }
 
 
-div.field.error, .portalMessage, dl.error dt, dl.error dd  {
+div.field.error, .portalMessage, dl.error dt, dl.error dd, dl.portalMessage dt {
 -webkit-border-radius: 16px;
 -moz-border-radius: 16px;
 border-radius: 16px;
@@ -587,12 +587,14 @@ background: #A4BCCA;
 
 div.clickable { /* Containing div must have a position value */ 
     position:relative; 
-
+display: inline-block;
+margin-right: 0.5em;
+margin-bottom: 0.5em;
 } 
 
 
 div.clickable a { 
-
+float: left;
        display: inline-block;
 background:#58b5ef;
 border:none;
