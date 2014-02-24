@@ -1,0 +1,8 @@
+<div metal:define-macro="portal_footer"
+     i18n:domain="plone"
+     id="portal-footer">
+          <p>&copy; <tal:content  content="python:modules['DateTime'].DateTime().year()" /> | Enid Linder Foundation | 150 Aldersgate London EC1A 4AB
+<br>Registered Charity no: 267509
+          </p>
+
+</div>
