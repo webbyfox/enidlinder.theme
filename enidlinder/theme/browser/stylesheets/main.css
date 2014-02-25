@@ -135,6 +135,8 @@ margin-bottom:30px;
 h2{ font-size:20px; margin-top:30px; margin-bottom:10px;}
 h3{ font-size:18px; margin-top:30px; margin-bottom:8px;}
 
+h5{ font-size:16px; margin-top:15px; margin-bottom:3px;}
+
 p{
 font-size:14px;
 }
@@ -301,13 +303,14 @@ border:none;
 }
 
 dl.portlet ul.navTreeLevel1 > .navTreeItem  {
-    border-left: 2px solid #ccd1ca;
+    
 padding-left: 0;
 margin-left:1em;
+margin-top: 0.25em;
 }
 .portletNavigationTree .navTreeItem a {
     /* Hide most kinds of nav icons (including pages)*/
-    background: none;
+    background: #F0F0F0;
     padding: 0 !important;
 margin:0;
 color:#58b5ef !important;
@@ -319,7 +322,7 @@ font-size:14px;
 }
 
 .portletNavigationTree .navTreeItem a:hover {
-
+background: #046437;
 color:#8ac640 !important;
 border:1px solid #CCC !important;
     -webkit-border-radius: 23px;
